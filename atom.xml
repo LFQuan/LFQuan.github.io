@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://lfquan.github.io/2021/10/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://lfquan.github.io/2021/10/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <link href="http://lfquan.github.io/2021/10/23/test/"/>
+    <id>http://lfquan.github.io/2021/10/23/test/</id>
     <published>2021-10-23T11:17:02.692Z</published>
     <updated>2021-10-23T11:18:06.985Z</updated>
     
@@ -31,28 +31,6 @@
     <summary type="html">&lt;p&gt;title: 我的第2篇博客&lt;br&gt;date: 2021-09-22 13:31:23&lt;br&gt;tags:测试&lt;/p&gt;
 &lt;p&gt;6666666666666666666666666666666&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇博客</title>
-    <link href="http://lfquan.github.io/2021/09/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://lfquan.github.io/2021/09/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2021-09-22T05:31:23.000Z</published>
-    <updated>2021-09-23T12:39:31.536Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>init</code></pre><p>$ hexo init [folder]<br>新建一个网站。<br>    new<br>$ hexo new [layout] <title><br>新建一篇文章。<br>$ hexo new “post title with whitespace”<br>参数    描述<br>-p, –path    自定义新文章的路径<br>-r, –replace    如果存在同名文章，将其替换<br>-s, –slug    文章的 Slug，作为新文章的文件名和发布后的 URL<br>默认情况下，Hexo 会使用文章的标题来决定文章文件的路径。对于独立页面来说，Hexo 会创建一个以标题为名字的目录，并在目录中放置一个 index.md 文件。你可以使用 –path 参数来覆盖上述行为、自行决定文件的目录：<br>    hexo new page –path about/me “About me”<br>以上命令会创建一个 source/about/me.md 文件，同时 Front Matter 中的 title 为 “About me”<br>注意！title 是必须指定的！如果你这么做并不能达到你的目的：<br>    hexo new page –path about/me<br>此时 Hexo 会创建 source/_posts/about/me.md，同时 me.md 的 Front Matter 中的 title 为 “page”。这是因为在上述命令中，hexo-cli 将 page 视为指定文章的标题、并采用默认的 layout。<br>    generate<br>$ hexo generate<br>生成静态文件。<br>选项    描述<br>-d, –deploy    文件生成后立即部署网站<br>-w, –watch    监视文件变动<br>-b, –bail    生成过程中如果发生任何未处理的异常则抛出异常<br>-f, –force    强制重新生成文件<br>Hexo 引入了差分机制，如果 public 目录存在，那么 hexo g 只会重新生成改动的文件。<br>使用该参数的效果接近 hexo clean &amp;&amp; hexo generate<br>-c, –concurrency    最大同时生成文件的数量，默认无限制<br>该命令可以简写为</p><p>$ hexo g<br>publish<br>$ hexo publish [layout] <filename><br>发表草稿。</p><p>server<br>$ hexo server<br>启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a></p><p>选项    描述<br>-p, –port    重设端口<br>-s, –static    只使用静态文件<br>-l, –log    启动日记记录，使用覆盖记录格式<br>deploy<br>$ hexo deploy<br>部署网站。</p><p>参数    描述<br>-g, –generate    部署之前预先生成静态文件<br>该命令可以简写为：<br>$ hexo d</p><p>   render<br>$ hexo render <file1> [file2] …<br>渲染文件。</p><p>参数    描述<br>-o, –output    设置输出路径<br>migrate<br>$ hexo migrate <type><br>从其他博客系统 迁移内容。</p><p>clean<br>$ hexo clean<br>清除缓存文件 (db.json) 和已生成的静态文件 (public)。</p><p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p><p>list<br>$ hexo list <type><br>列出网站资料。</p><p>version<br>$ hexo version<br>显示 Hexo 版本。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;pre&gt;&lt;code&gt;init
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;$ hexo init [folder]&lt;br&gt;新建一个网站。&lt;br&gt;    new&lt;br&gt;$ hexo new [layout] &lt;title&gt;&lt;br&gt;新建一篇文章。&lt;br&gt;$ hexo new “post ti</summary>
       
     
     
