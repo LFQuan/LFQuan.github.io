@@ -6,7 +6,7 @@
   <link href="http://lfquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://lfquan.github.io/"/>
-  <updated>2021-10-23T12:00:58.850Z</updated>
+  <updated>2021-10-31T11:26:32.853Z</updated>
   <id>http://lfquan.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C语言的简单入门知识</title>
+    <link href="http://lfquan.github.io/2021/10/31/C%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86/"/>
+    <id>http://lfquan.github.io/2021/10/31/C%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86/</id>
+    <published>2021-10-31T11:18:24.000Z</published>
+    <updated>2021-10-31T11:26:32.853Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>1、任何一个c语言程序都必须包括以下格式：</strong></p><p>main() { }</p><p>这是c语言的基本结构，任何一个程序都必须包含这个结构。括号内可以不写任何内容，那么该程序将不执行任何结果。</p><p><strong>2、main()—-在c语言中称之为“主函数”</strong>：一个c程序有且仅有一个main函数，任何一个c程序总是从main函数开始执行，main函数后面的一对圆括号不能省略。</p><p><strong>3、被大括号{ }括起来的内容称为main函数的函数体</strong>，这部分内容就是计算机要执行的内容。</p><p><strong>4、在{ }里面每一句话后面都有一个分号（；）</strong>，在c语言中，我们把以一个分号结尾的一句话叫做一个c语言的语句，分号是语句结束的标志。</p><p><strong>5、printf(“a=%d,b=%d,sum=%d\n”,a,b,sum)输出</strong>; —-通过执行这条c语言系统提供给我们直接使用的屏幕输出函数，用户即可看到运行结果，本程序运行后，将在显示器上显示如下结果：</p><p>a=20,b=15,sum=35</p><p><strong>6、#include</strong></p><p>注意：（1）以#号开头 （2)不以分号结尾 这一行没有分号，所以不是语句，在c语言中称之为命令行，或者叫做“预编译处理命令”。</p><p><strong>7、程序中以 /<em>开头并且以</em>/结尾的部分表示程序的注释部分</strong>，注释可以添加在程序的任何位置，为了提高程序的可读性而添加，但计算机在执行主函数内容时完全忽略注释部分，换而言之就是计算机当做注释部分不存在于主函数中。</p><p><strong>8、标识符</strong></p><p>在编写程序时，必须为函数、变量等命名，这个名字称为标识符。C语言中标识符的命名规则如下：</p><p>标识符只能由字母、数字、下划线组成；</p><p>标识符的第一个字母必须是字母和下划线；</p><p>标识符区分大小写字母，如If和if是两个完全不同的标识符。</p><p>合法标识符如下： A6, b_3 , _mn 非法的标识符如下： ab#12 , 8m , tr3:4 , yes no</p><p>标识符分为如下三类：</p><p><code>*1、关键字*</code></p><p>关键字是具有特定含义的，专门用来说明c语言特定成分的一类标识符，不能用作用户的标识符。</p><p>auto break case char union do double else enum extern goto if int long short signed static sizof struct switch unsigned void for while typedef continue float return typedef default</p><p><code>2、预定义标识符</code></p><p>预定义标识符在c语言中也有特定的含义，但可以用作用户标识符，预定义标识符分为两类：</p><p>1）、库函数名字，比如printf，scanf,sin，isdigit等</p><p>2）、编译处理命令名，比如define,include</p><p><code>3、用户标识符</code></p><p>用户根据需要自己定义的标识符称为用户标识符。无论如何自定义标识符，都必须符合标识符的三条命名规则。</p><p><strong>9、常量</strong></p><p>在程序运行中，其值不能被改变的量称为常量。常量有5种类型：整型常量、实型常量、字符常量、字符串常量和符号常量。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;1、任何一个c语言程序都必须包括以下格式：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;main() { }&lt;/p&gt;
+&lt;p&gt;这是c语言的基本结构，任何一个程序都必须包含这个结构。括号内可以不写任何内容，那么该程序将不执行任何结果。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、ma</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>小白对于C语言的认识</title>
